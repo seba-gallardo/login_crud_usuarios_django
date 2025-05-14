@@ -1,0 +1,59 @@
+/* Archivo de estilos personalizados para la página de registro */
+
+/* Fondo y estilo global para la página */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para la tarjeta del formulario */
+.card {
+    border-radius: 15px;
+}
+
+/* Cambiar el color del texto del botón cuando el mouse pasa por encima */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Mensajes de error */
+.alert {
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+/* Estilo para los enlaces */
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Estilo del header de la tarjeta */
+.card-header {
+    border-radius: 15px 15px 0 0;
+}
+
+/* Estilo de la tarjeta y sus sombras */
+.card.shadow-lg {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Aumentar el ancho de la tarjeta */
+.card {
+    max-width: 600px; /* Aumenta el máximo ancho */
+}
+
+/* Espacio entre los campos del formulario */
+.form-group {
+    margin-bottom: 20px; /* Agregar espacio entre los campos */
+}
+
+/* Ocultar mensajes de ayuda por defecto */
+.helptext {
+    display: none;
+}
